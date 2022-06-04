@@ -27,7 +27,7 @@ if (isset($_POST['user']) || isset($_POST['pass'])) {
             header('Location: panel.php');
 
         } else {
-            echo "<script>alert('Usuario ou senha incorretos!')</script>";
+            echo "<script>alert('teste Usuario ou senha incorretos!')</script>";
         }
     }
 }
